@@ -1,0 +1,64 @@
+
+body {
+    font-family: "Calibri";
+}
+
+table {
+    margin: 0px;
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+tr, th, td {
+    margin: 0px;
+    vertical-align: text-top;
+}
+
+.grid_table {
+    width: 100%;
+    background-color: #0000000a;
+    border: 1px solid darkgray;
+    border-collapse: collapse;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.grid_table th, .grid_table td {
+    vertical-align: text-top;
+    border: 1px solid darkgray;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.grid_table ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.page_panel {
+    min-width: 600px;
+    max-width: 800px;
+    margin: 10px auto;
+    overflow-x: hidden;
+    font-size: 14px;
+    padding: 10px;
+    font-family: "Cascadia Mono";
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #00000010;
+    background-color: #0000000a;
+    box-shadow: 0px 0px 30px 10px gray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url('/images/background.jpg');
+}
+
+.avatar {
+    background-position: center center;
+    background-image: url('/images/thanhtung.jpg');
+    width: 15%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
